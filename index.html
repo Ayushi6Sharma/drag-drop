@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag And Drop</title>
+    <style>
+        [id]
+        {
+            padding: 10px;
+            margin: 20px;
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid1">
+        <div id="div1" draggable="true" ondragover="dragover(event)" ondrop="drop(event)">
+            <img src="https://codeskulptor-demos.commondatastorage.googleapis.com/pang/NljADnB.png" id="drag1" ondragstart="drag(event)">
+        </div>
+        <div id="div2" draggable="true" ondragover="dragover(event)" ondrop="drop(event)">
+           <img src="https://codeskulptor-demos.commondatastorage.googleapis.com/pang/Nl5u05O.png" id="drag2" ondragstart="drag(event)">
+        </div>
+        <div id="div3" draggable="true" ondragover="dragover(event)" ondrop="drop(event)">
+            <img src="https://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png" id="drag3" ondragstart="drag(event)">
+        </div>
+        <br>
+        <div id="div4" draggable="true" ondragover="dragover(event)" ondrop="drop(event)">
+            <img src="https://codeskulptor-demos.commondatastorage.googleapis.com/pang/FDqGDmc.png" id="drag4" ondragstart="drag(event)">
+        </div>
+        <div id="div5" draggable="true" ondragover="dragover(event)" ondrop="drop(event)">
+            <img src="https://codeskulptor-demos.commondatastorage.googleapis.com/pang/LdTCEUo.png" id="drag5" ondragstart="drag(event)">
+        </div>
+        <div id="div6" draggable="true" ondragover="dragover(event)" ondrop="drop(event)">
+            <img src="https://codeskulptor-demos.commondatastorage.googleapis.com/pang/pX44tkA.png" id="drag6" ondragstart="drag(event)">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
